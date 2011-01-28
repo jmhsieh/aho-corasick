@@ -33,7 +33,7 @@
 
 <target name="compile" depends="init">
   <javac srcdir="${src}" destdir="${build}"
-         source="1.4" debug="true">
+         source="1.6" debug="true">
     <classpath refid="project.classpath" />
   </javac>
 </target>
@@ -43,7 +43,7 @@
 <target name="javadoc">
   <javadoc destdir="${javadoc}"
            classpathref="project.classpath"
-           source="1.4">
+           source="1.6">
       <fileset dir="${src}" defaultexcludes="yes">
           <include name="**/*.java"/>
           <exclude name="**/Test*.java"/>
