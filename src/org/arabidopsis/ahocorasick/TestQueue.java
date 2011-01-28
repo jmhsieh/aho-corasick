@@ -2,6 +2,7 @@ package org.arabidopsis.ahocorasick;
 
 import junit.framework.TestCase;
 
+@SuppressWarnings("unchecked")
 public class TestQueue extends TestCase {
     public void testSimple() {
 	Queue q = new Queue();
